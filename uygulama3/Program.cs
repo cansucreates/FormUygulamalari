@@ -16,7 +16,7 @@ namespace uygulama3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1()); // Form1 sınıfından bir nesne oluşturup uygulamayı başlatıyoruz. 
         }
     }
 }

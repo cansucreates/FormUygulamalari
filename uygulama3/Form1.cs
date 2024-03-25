@@ -16,5 +16,14 @@ namespace uygulama3
         {
             InitializeComponent();
         }
+
+
+        private void dışGiyimToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DisGiyim giyim = new DisGiyim(); // DisGiyim sınıfından bir nesne oluşturuyoruz.
+            giyim.Show(); // dis giyim sayfasını açıyoruz. (Giyim > Dış Giyim'e tıkladığımızda dış giyim sayfası açılacak.)
+            // this.Close(); // Form1 sayfasını kapatıyoruz.(Yani bulunduğumuz sayfayı kapatıyoruz.)
+            this.Hide(); // Form1 sayfasını gizliyoruz. (Yani bulunduğumuz sayfayı gizliyoruz.)
+        }
     }
 }
