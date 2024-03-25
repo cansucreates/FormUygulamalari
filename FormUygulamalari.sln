@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uygulama1", "uygulama1\uygulama1.csproj", "{C3586841-B89F-405F-A5ED-97DC7AF49C7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uygulama2", "uygulama2\uygulama2.csproj", "{FCA372A2-829A-4B0D-9C07-9841B6DDECEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uygulama3", "uygulama3\uygulama3.csproj", "{7F13E0CA-B256-4039-9FF0-88044019BFA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C3586841-B89F-405F-A5ED-97DC7AF49C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3586841-B89F-405F-A5ED-97DC7AF49C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3586841-B89F-405F-A5ED-97DC7AF49C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA372A2-829A-4B0D-9C07-9841B6DDECEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA372A2-829A-4B0D-9C07-9841B6DDECEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA372A2-829A-4B0D-9C07-9841B6DDECEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA372A2-829A-4B0D-9C07-9841B6DDECEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F13E0CA-B256-4039-9FF0-88044019BFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F13E0CA-B256-4039-9FF0-88044019BFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F13E0CA-B256-4039-9FF0-88044019BFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F13E0CA-B256-4039-9FF0-88044019BFA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
