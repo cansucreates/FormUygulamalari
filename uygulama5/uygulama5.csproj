@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fatura.Designer.cs">
+      <DependentUpon>Fatura.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="Siparis.Designer.cs">
       <DependentUpon>Siparis.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Fatura.resx">
+      <DependentUpon>Fatura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
